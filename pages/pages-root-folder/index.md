@@ -46,7 +46,7 @@ homepage: true
 
 <div id="videoModal" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://youtu.be/0n70dlEw9P4" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/0n70dlEw9P4?ecver=2" width="1280" height="720" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
