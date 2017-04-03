@@ -1,7 +1,7 @@
 - name: GitHub
   url: http://github.com/ballisticannon
   class: icon-github
-  title: Code and stuff...
+  title: "Code and stuff..."
 
 - name: YouTube
   url: http://www.youtube.com/Ballisticannon
@@ -21,7 +21,7 @@
 - name: Ballisticannon YouTube Google+
   url: https://plus.google.com/u/0/+Ballisticannon
   class: icon-googleplus
- title: "YouTube Google+"
+  title: "YouTube Google+"
 
 # - name: Facebook
 #   url: http://www.facebook.com/
