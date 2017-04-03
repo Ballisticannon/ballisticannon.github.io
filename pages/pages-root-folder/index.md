@@ -8,20 +8,20 @@ layout: frontpage
 header:
   image_fullwidth: maxteaching.jpg
 widget1:
-  title: "Blog"
+  title: "Blog and Projects"
   url: '/blog/'
   image: widget-1-302x182.jpg
   text: 'For a quick glimpse at the stuff running around inside my head <em>check out my blog/em>'
 widget2:
   title: "Make a difference"
-  url: '/shareSTEM/'
+  url: '/service/'
   text: '<em>STEM</em> is more than a passion, its how I understand the world. Through my robotics team, I get to share this approach with many kids.'
   video: '<a href="#" data-reveal-id="videoModal"><img src="/images/reignonmxp.jpg" width="302" height="182" alt=""/></a>'
 widget3:
-  title: "Projects"
-  url: '/random/'
-  image: widget-github-303x182.jpg
-  text: '<em>Long term Projects</em> This is where I say something about larger projects.'
+  title: "School"
+  url: '/academics/'
+  image: college302x182.jpg
+  text: '<em>College Bound</em> Wrapping up my senior year at the School of Science and Engineering (Magnet) in Dallas and making some serious decisions about my future...'
 #
 # Use the call for action to show a button on the frontpage
 #
