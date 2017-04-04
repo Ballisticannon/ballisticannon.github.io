@@ -14,7 +14,7 @@ widget1:
   text: '<em>Take a look at my blog</em> to get a feel for my recent endeavors - Updates about my work in robotics, my progress on independent projects, my performance at competitions, and more go here.'
 widget2:
   title: "Making a difference"
-  url: '/service/'
+  url: '/blog/'
   text: '<em>STEM is more than just a passion,</em> it is how we understand everything from the quantum level to the cosmic. With my robotics team, I get to share this approach with the world.'
   video: '<a href="#" data-reveal-id="videoModal"><img src="/images/reignonmxp.jpg" width="302" height="182" alt=""/></a>'
 widget3:
