@@ -1,0 +1,62 @@
+---
+layout: post
+title: Ready the Artillery
+tags: [Design]  
+section: engineering
+personhours: 15
+rollcall: [Max] 
+---
+
+
+
+<html>
+<head>
+<title> {{ page.title }} </title>
+</head>
+<body>
+
+By {{ page.rollcall | array_to_sentence_string }} <br />
+
+<h3>Task: Design a bowl for our upcoming catapult system</h3>
+<p>
+    We've been experimenting with catapult systems for a little while now, but we're still
+	sorely lacking one of the core ingredients of any catapult system: the ability to throw
+	things. I mean, technically we're lacking the ability to <s>hold</s> what we're trying
+	to throw, but it's the same effect.
+</p>
+<p>
+	In any case, it's an issue we have to deal with, and our solution is good ol' nylon.
+	I went through a few designs for a bowl to hold balls, and the one we're using is pretty
+	much a semicircular shell with a handle which mounts to the arm of the catapult and
+	plenty of holes to lower the weight while keeping it sturdy.
+</p>
+	<img src="..\images\CATAPULTBOWLv5.jpg">
+	(herecomedatbowl.jpg)
+
+<h3>Reflections</h3>
+<p>
+	The bowl is a great fit for the ball and doesn't seem to interfere with the strength of
+	the catapult, but there are still two issues which we can't address yet.
+</p>
+<p>
+	Firstly, we haven't gotten a loading mechanism planned out yet. We can make the catapult
+	as strong and reliable as we want, but beyond the first ball we're allowed to load for
+	autonomous, it won't do us any good until the robot can actually take balls from the floor
+	and load them into the bowl. That might not seem very pertinent to the design of the bowl,
+	but since it's the only physical interface between the loading mechanism and the catapult,
+	it'll be the first thing to change if the two don't fit together on the first try.
+</p>
+<p>
+	The second issue is just that cleaning out the printed model is an utter pain. Again, this
+	is no reason to change the model right now (and it probably won't be one later on, either),
+	but since we're likely to have at least one more version in order to solve whatever issues
+	we encounter while developing the loading mechanism, there's at least a 90% chance that
+	another catapult bowl will need to have its support structure gouged out over the course of
+	an hour. I just feel sorry for the poor bugger who has to do it. 
+</p>
+<p>
+	Yeah, it's probably gonna be me.
+</p>
+
+</body>
+</html>

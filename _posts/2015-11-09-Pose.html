@@ -1,0 +1,62 @@
+---
+layout: post
+title: Writing Pose
+tags: [software]
+section: engineering
+personhours: 8
+rollcall: [Max, Eliot]
+---
+
+
+<!--Read post guidelines! http://www.ironreignrobotics.com/postGuidelines/  ask questions in the Disqus below-->
+<html>
+<head>
+<title> {{ page.title }} </title>
+</head>
+<body>
+
+By {{ page.rollcall | array_to_sentence_string }} <br />
+
+<h3>Task: Create a rough draft of the code for the Pose class</h3>
+<p>
+Starting just a few weeks into the competition year, we thought up ideas for a system of classes to allow the robot to navigate to a location on the field on its own, including the Pose class, which we would use to keep tabs on where the robot was on the field at any particular time. With this, it would be possible to make a system where we could simply give a set of coordinates to a function in the code and the robot would work out a route on its own. This has limited use beyond the autonomous phase, but nevertheless would be useful in premade routines (such as automatically ascending the mountains at the press of a button in the End Phase). This code would also be recyclable for next year; two components would change - the specs for the robot and the locations of the obstacles - but unless the entire game takes a drastic turn next year, all of the rest of the code should apply just as it will this year. 
+</p>
+<p>
+In any case, we have been working on a skeleton for a few weeks, and Pose now has some functionality. In our amazing list of features, we have: 
+<ul>
+	<li>More variables than the human mind can perceive without flinching at the thought of perceiving so many variables</li>
+	<li>Memory of location, speed, angle, dimensions, and more</li>
+	<li>Three different constructor functions, two of which will likely never be used</li>
+	<li>Read and write functions, because of reasons</li>
+	<li>An update function for telling the class what we're doing</li>
+	<li>Odometry and trigonometry and Euler angles, oh my</li>
+	<li>Being almost useless until we make the partner classes that use Pose's info to navigate</li>
+</ul>
+</p>
+<p>
+<code>
+double displacement = (((double)(ticksRight - ticksRightPrev)/ticksPerMeterRight) + ((double)(ticksLeft - ticksLeftPrev)/ticksPerMeterLeft))/2.0;</br>
+
+poseSpeed = displacement / (double)(currentTime - this.timeStamp)*1000000; //meters per second when ticks per meter is calibrated</br>
+
+timeStamp = currentTime;</br>
+ticksRightPrev = ticksRight;</br>
+ticksLeftPrev = ticksLeft;</br>
+
+double poseHeadingRad = Math.toRadians(poseHeading);</br>
+
+poseX += displacement * Math.cos(poseHeadingRad);</br>
+poseY += displacement * Math.sin(poseHeadingRad);
+</code>
+</p>
+
+<h3>Reflections</h3>
+<p>
+Since the robot itself isn't fully built (or fully designed, for that matter) we won't be able to fully finish the Pose code very soon, as the class relies on knowing the robot's dimensions, having access to sensors, etc. We can still improve on what we have now and code for what we plan to have on the finished robot, but final testing won't be possible for a while. We also have yet to tackle the two biggest challenges for the multi-class concept. The first of these will be figuring out a way to tell the robot where static obstacles (field elements) are in a way that human beings can understand. The second will be finding out how to get the robot to use what we've given it and actually figure out directions on its own; I can forsee problems with trying to account for errors like the robot stalling because it thinks it's in a wall, trying to take overly complicated routes, etc. 
+</p>
+<p>
+As it stands, the clearest path of action is to work on a way to model the field and obstacles, and then update Pose with robot specs once the design is finalized. Afterwards, we will use Pose and our obstacle-mapping code to design the navigator class. We are, however, keeping in mind that the tele-op code is as incomplete as the robot is. Coding the tele-op isn't as hard as this amalgamate of classes due to the fact that the tele-op only needs to be updated whenever we add a motor, and even then only a few lines of code are added at a time. Chances are, we work on Pose and its companion classes most of the time, and just make quick changes to the tele-op whenever necessary.
+</p>
+
+</body>
+</html>

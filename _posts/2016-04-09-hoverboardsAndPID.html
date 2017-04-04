@@ -1,0 +1,35 @@
+---
+layout: post
+title: Hoverboards and PID
+tags: [mechanical, Think, Control, Video]  
+section: engineering
+personhours: 20
+rollcall: [Caitlin, Omar, Darshan, Tycho, Max] 
+---
+
+
+<!--Read post guidelines! http://www.ironreignrobotics.com/postGuidelines/  ask questions in the Disqus below-->
+<html>
+<head>
+<title> {{ page.title }} </title>
+</head>
+<body>
+
+By {{ page.rollcall | array_to_sentence_string }} <br />
+
+<h3>Task: Continue with the Hoverboard and tweak PID</h3>
+<p>
+     After the long weekend last week, today was a reasonably relaxed practice. We decided that we could work on anything, as long we stayed focused. The two main foci were the -Robot on a Hoverboard- and fine tuning our PID for autonomous.
+</p>
+
+<h3>Reflections</h3>
+<p>
+We experimented with balancing the robot more evenly on the hoverboard to keep it on a straight path and then getting creative with the controls to speed it up. We found that we could effectively rocket it forward by extending and angling the cliff climber while flipping the block dispenser forward at the same time. While it was easy to send the robot forward, there was little we could do to recover outside of just pushing it back by hand. This created a game of hot potato as we passed the robot around from person to person, but was ended rather abruptly when it careened into the table.
+</p>
+<p>
+If we're going to get our autonomous functional for UIL then we need to fix our PID. We used the parts of the current autonomous demo to check the straight line gyro drive, and went from barely correcting, to crazy oscillations, to a good level in between. This took a decent amount of tweaking for K-proportional, and when we felt we were straddling the line between too much and too little correction we messed around with K-Derivative to be better prepared. After the initial gyro guided line the robot is programmed to do a 45 degree turn towards the beacon, and then fine tune its angle using color blob. The color blob detection seemed to track the selected color accurately, outlining the area in neon green, but for some reason didn't turn to aim at it. If anything it turned away from the beacon. We found a mistake in our error calculation, where leftover error wasn't properly cleared before the guided turn, that we believe caused at least some of the odd turning behavior.
+</p>
+
+
+</body>
+</html>

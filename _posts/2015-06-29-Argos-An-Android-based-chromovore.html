@@ -1,0 +1,42 @@
+---
+layout: post
+title: Argos the Chromovore
+tags: [mechanical, outreach]
+section: engineering
+personhours: 80
+rollcall: [Max, Tycho]
+---
+
+
+<html>
+<head>
+<title> {{ page.title }} </title>
+</head>
+<body>
+
+By {{ page.rollcall | array_to_sentence_string }} <br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bg1nb55f9oc" frameborder="0" allowfullscreen></iframe>
+<h3>Task: Get some pre-season experience with Android controlled robots</h3>
+<p>
+We've been experimenting with Android controlled robots while we wait for our ModernRobotics modules. 
+Argos is a chromovore - it seeks an identified color using OpenCV4Android machine vision processing. 
+It tries to maintain a given distance from the colored object and follow it around.  
+It's built using the IOIO-OTG for low level interface with the motor control electronics.  
+The ZTE Speed phone is mounted on pan/tilt hardware from ServoCity and Actobotics. 
+The chassis is a MaxStone 1/5 scale rock crawler by Exceed RC. 
+</p>
+
+<h3>Reflections</h3>
+<p>
+We are starting to learn a bit about using Android devices for controlling robotics.  There seems to be a lot of potential here,
+but we are mostly finding that we have more and more to learn.  Machine vision is not easy, and we don't even know if it will
+be useful in next season's challenge.  We are also learning about the location and orientation APIs.  Unfortunately it seems the
+ZTE Speed doesn't have an actual gyro in it, so we'll have to continue using an external gyro for heading management.
+</p><p>
+We don't plan to publish (meaning document and support) the source code.  Our code is just a hack forcing two projects into one - plus you really want to build it from scratch to get a good idea of what is going on.  It's pretty much a blend of the ColorBlobDetector sample that 
+comes with OpenCV4Android, and the IOIOSimpleApp present in the <a href="https://github.com/ytai/ioio">IOIO Github project</a>. Use the gradle branch for compatibility with Android Studio. But if you want to look at our implementation <a href="https://github.com/IronReign/ioio/tree/gradle">you can find it here.</a>
+</p>
+
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+---
+layout: post
+title: Control Scheme 
+tags: [Control, buttons]
+personhours: 1
+rollcall: [Darshan, Caitlin, Tycho, Max, Jayesh, Omar]
+---
+
+
+<html>
+<head>
+<title> {{ page.title }} </title>
+</head>
+<body>
+
+By {{ page.rollcall | array_to_sentence_string }} <br />
+<h4> Task: Test Autonomous and debugging </h4>
+<p>
+Today we were refining our ramp autonomous by debugging the gyro code. We found that 
+our "goYonder" and "goBackward" method were affecting each other which was making 
+our robot work incorrectly and just going crazy. 
+
+<br />
+<h4> Reflections: </h4>
+Our approach to fixing our autonomous has yielded some promising results. When we started practice the autonomous code 
+only worked every other time, failing when we compiled for the first time per connect and alternating from there.
+We found the cause of the error, having two methods whith local variables of the same name.  We hadn't caught this 
+earlier because normally local variables clear each time. Mr.Virani attributed this to Robot C being stupid.  When we 
+zeroed the variable each time, the issue was fixed. Once that was resolved we were able to actually make progress 
+on our ramp routine.
+</p>
+
+</body>
+</html>

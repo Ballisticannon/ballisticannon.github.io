@@ -1,0 +1,55 @@
+---
+layout: post
+title: Tape Measure Attachment
+tags: [Mechanical, Design, Innovate]  
+section: engineering
+personhours: 10
+rollcall: [Trace, Max] 
+---
+
+
+<html>
+<head>
+<title> Cliff Hanger - Tape measure based climber</title>
+</head>
+<body>
+
+By {{ page.rollcall | array_to_sentence_string }} <br />
+
+<h3>Task: Creating an attachment to climb the mountain</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z7geS6gu7RA" frameborder="0" allowfullscreen></iframe>
+<p>
+
+</br>
+	We have recently been working on a new approach to climbing the mountain. Our strategy so far was to have one system customized for climbing the mid and upper mountain (<a href="/ChurroHook">Churro Climber</a>), and a separate system for climbing the cliff (<a href="/Hell-On-Reels">Crossbow Grapple</a>). The Churro climber system was beginning to work but it was floppy and we were thinking about stiffening the nylon extensions with measuring tape material. The Crossbow Grapple was working by hand, but we still hadn't mounted it to the robot and hadn't figured out how to rig it with a winch and servo trigger.
+	
+	</p><p>
+	
+	Then while researching grapples we stumbled on robots using tape measures as self-supporting winches. Brilliant! Many FRC robots have used this type of solution where it goes back at least as far as 2010:
+	</p>
+	<a href="http://www.chiefdelphi.com/forums/showthread.php?postid=945761" target="_blank"><img src="../images/FRC3280tape.jpg"/></a>
+	<p>
+	And FTC teams are using the idea this season. We were inspired by how well <a href="https://youtu.be/-b-xo8EwxOU?t=1m37s" target="_blank">team 6081 does this</a></p>
+	<p>
+
+	
+	This approach lets us simplify from two separate systems into one system that is much more compact. It also lets us switch to climbing the mountain in the opposite direction than we had been, which can extend the reach of our debris trough and maybe let us deposit in the highest debris container. It also seems like this approach could be more durable than what we what we've been working on.
+	</p>
+	<img src="../images/cliffhanger.jpg"/>
+	<p>
+	Our design is composed of a tape measure and motors to pull or release with a hook at the end to grab the churros and upper bar. <a href="https://www.youtube.com/watch?v=YJn3G7iRkTM" target="_blank">Team 6081 posted about their design</a>, but we wanted a lighter version so we tried direct drive and Max designed a new 3D printed spool without a retracting spring in it. We bored large holes through the sides to allow motor hubs to stick out. We had to saw off a corner of the original case because it was limiting its own rotation to the elevation angles we needed.  Then we drilled more holes in the case to attach the servo linkage that controls the elevation angle. Max designed a custom hook to go on the end and printed it.
+	</p>
+
+<h3>Reflections</h3>
+
+<img src="../images/tapedamage.jpg"/>
+<p>
+	In our first test, the tape measure broke (because we over-retracted it). It also has a problem where the tape extends out through the hole we made in the case when the tape is physically prevented from pushing outward. But if you avoid these situations, the tape measure seems very successful and was able to pull the robot all the way up the mountain. We plan to use this in our competition this week (yay!!).
+</p><p>
+
+	This system is very important and will help deliver many points in the near future. In contrast to our previous pair of climbing systems, this is very practical and will be easier to use for the driver and it will work most if not 100% of the time. I hope this will be just as helpful to everyone else too.
+</p>
+
+
+</body>
+</html>

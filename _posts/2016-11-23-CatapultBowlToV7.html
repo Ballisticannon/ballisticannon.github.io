@@ -1,0 +1,37 @@
+---
+layout: post
+title: Catapult Upgrades
+tags: [Design]  
+section: engineering
+personhours: 10
+rollcall: [Max] 
+---
+
+
+
+<html>
+<head>
+<title> {{ page.title }} </title>
+</head>
+<body>
+
+By {{ page.rollcall | array_to_sentence_string }} <br />
+
+<p>
+	Get Nostradamus on the horn, there’s a new prophet in town.
+</p>
+
+<h3>Task: Imbue the catapult bowl with infinite power</h3>
+<p>
+    As I predicted in the article about the first version of the catapult bowl, it’s gonna need a rework. There’s enough room for the catapult system and the conveyor system to fit together on the robot, but the lip of the bowl is too high for a ball to roll into the slot. This is a tough issue to solve: we’ll have to slice a chunk out of the hemisphere of the bowl, but doing so will make a bunch of sharp corners in the area of the catapult which is closest to the rubber bands, and the potential repercussions of the belt and catapult getting snagged on each other in the middle of a competition are catastrophic. I’ve solved the problem as best I could with a very generous rounding over of the points left over after removing the section of the bowl which is blocking the balls.
+</p>
+	<img src="../images/CATAPULTBOWLv7.jpg">
+
+<h3>Reflections</h3>
+<p>
+	This has solved our problems in interfacing the two systems, but I’m a bit concerned that taking so much material out of the outer end of the bowl may affect the flight path of the particles by providing less resistance to the centrifugal momentum of the ball as it accelerates. We won’t go back to the original bowl based on that knowledge, but it’s still an important detail to keep in mind as we consider our options for scoring points.
+</p>
+
+
+</body>
+</html>

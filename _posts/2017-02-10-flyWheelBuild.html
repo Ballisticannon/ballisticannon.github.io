@@ -1,0 +1,64 @@
+---
+layout: post
+title: Building the Fly Wheel Launcher	
+tags: [mechanical, Innovate, Design]  
+section: engineering 
+personhours: 16
+rollcall: [Jayesh, Omar, Darshan, Evan, Tycho, Max] 
+---
+
+
+<html>
+<head>
+<title> {{ page.title }} </title>
+</head>
+<body>
+
+By {{ page.rollcall | array_to_sentence_string }} <br />
+
+<h3>Task: Create a particle launcher with a higher scoring rate</h3>
+<img src="../images/FlywheelV3.jpg">
+<p>
+The first particle launcher we saw by another FTC team 
+was actually a crude flywheel and rail design back in October where the rail was a cut up PVC elbow. 
+Back then we considered a number of different designs including impact launchers, catapults, flywheel + rail systems and dual
+flywheel shooters like our sister team built. We decided to go with a catapult design because Max had experience with catapults
+and knew that they could create very repeatable trajectories.
+</p><p>
+Our catapult has achieved those reliable trajectories. We operated it with a choo-choo mechanism that allowed us to fire and re-cock
+without having to change direction, so that made reloading easier and faster that it might otherwise be. 
+It accurately scored, with consistent ballistic trajectories, however, the system had problems with ball loading when our 3D printed catapult 
+bowl kept failing due to layer separation. As a result we had a lot of misfires and had to replace our bowl often. So our
+moderate cycle rate and our misfires meant we actually scored only about 4 balls during our average teleop phase. As the
+season progressed it became increasingly clear that we would have to radically improve our center vortex game and that was
+driven home when Technical Difficulties and Technibots crushed us with their world record score in the finals match at our
+first qualfier. 
+</p><p> 
+So we decided to move on to a flywheel-based design, knowing that we would likely be sacrificing some accuracy for a much
+greater cycle rate. We knew that dual flywheels tended to have even greater issues with accuracy due to their extremely short
+contact period and the chance that one or both wheels would hit a slot in the wiffle ball. We saw direct proof of this as our
+sister team, Imperial Robotics, struggled to get their dual-flywheel design to work consistently. And Ethan had attempted to
+build one very early in the season, but never really go it working. So we decided to design with a single wheel 
+with a semicircular ball guide or rail. Max created a custom 3D design for both the flywheel and for the rails. The rails were printed
+in nylon, our preferred structural plastic. He printed three different flywheels for testing. One was in nylon meant to be covered
+with foam for compliance. The other two were printed in Ninjaflex (urethane) at different infill densities. The foam on the nylon
+version shredded at the RPMs we were using. We probably could have found a better adhesion solution, but found that the low-density
+Ninjaflex version worked beautifully and has stood up to extensive testing.   
+</p>
+
+
+
+<h3>Reflections</h3>
+<img src="../images/FlywheelInRobot.JPG">
+<p>
+The continuous improvement of designs is a constant focus we adhere to. Previously we'd gone through two major revisions of our
+catapult system, with a whole bunch of minor modifications, and that system got us qualified for the North Texas Regionals.
+We saw the pros and cons, and eventually saw fit to change the system to score more points in the long run. We are now able to
+score around 75% of the balls we shoot. The key is in how quickly we shoot now. Before we would have to collect balls, turn 
+the robot around, load a singular ball into the scoop, and shoot. Now, we can shoot 4-5 balls right after another without turning
+around. This will allow us a much greater center vortex scoring rate as we aim to be one of the top teams at Regionals.
+</p>
+
+
+</body>
+</html>
