@@ -11,17 +11,17 @@ widget1:
   title: "Blog and Projects"
   url: '/blog/'
   image: widget-1-302x182.jpg
-  text: 'For a quick glimpse at the stuff running around inside my head <em>check out my blog/em>'
+  text: '<em>Take a look at my blog</em> to get a feel for my recent endeavors - Updates about my work in robotics, my progress on independent projects, my performance at competitions, and more go here.'
 widget2:
-  title: "Make a difference"
+  title: "Making a difference"
   url: '/service/'
-  text: '<em>STEM</em> is more than a passion, its how I understand the world. Through my robotics team, I get to share this approach with many kids.'
+  text: '<em>STEM is more than just a passion,</em> it is how we understand everything from the quantum level to the cosmic. With my robotics team, I get to share this approach with the world.'
   video: '<a href="#" data-reveal-id="videoModal"><img src="/images/reignonmxp.jpg" width="302" height="182" alt=""/></a>'
 widget3:
-  title: "School"
+  title: "Academics"
   url: '/academics/'
   image: college302x182.jpg
-  text: '<em>College Bound</em> Wrapping up my senior year at the School of Science and Engineering (Magnet) in Dallas and making some serious decisions about my future...'
+  text: '<em>College Bound!</em> With the end of my time at the Science and Engineering (Magnet) at Dallas on the horizon, now comes the time to ensure that my aspirations to help others by pushing the boundaries of prosthetics does not go to waste.'
 #
 # Use the call for action to show a button on the frontpage
 #
@@ -32,10 +32,10 @@ widget3:
 # to use the main color or success, alert or secondary.
 # To change colors see sass/_01_settings_colors.scss
 #
-callforaction:
-  url: https://tinyletter.com/feeling-responsive
-  text: Inform me about new updates and features ›
-  style: alert
+#callforaction:
+#  url: https://tinyletter.com/feeling-responsive
+#  text: Inform me about new updates and features ›
+#  style: alert
 permalink: /index.html
 #
 # This is a nasty hack to make the navigation highlight
