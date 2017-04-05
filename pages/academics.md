@@ -166,36 +166,70 @@ Note: a "TBD" in the score section means I've signed up to take that test this y
   </thead>
   <tbody>
     <tr>
-      <td>&lt;caption&gt;</td>
-      <td>defines a table caption</td>
+      <td>AP Biology</td>
+      <td>9th</td>
+	  <td>92</td>
     </tr>
     <tr>
-      <td>&lt;colgroup&gt;</td>
-      <td>no styling needed</td>
+      <td>Algebra 2</td>
+      <td>9th</td>
+	  <td>88</td>
     </tr>
     <tr>
-      <td>&lt;col&gt;</td>
-      <td>no styling needed</td>
+      <td>Geometry</td>
+      <td>9th</td>
+	  <td>92</td>
     </tr>
     <tr>
-      <td>&lt;thead&gt;</td>
-      <td><code>font-weight: bold;</code></td>
+      <td>AP Calculus AB</td>
+      <td>9th</td>
+	  <td>86</td>
     </tr>
     <tr>
-      <td>&lt;tbody&gt;</td>
-      <td>no styling needed</td>
+      <td>AP Computer Science</td>
+      <td>9th</td>
+	  <td>91</td>
     </tr>
     <tr>
-      <td>&lt;tr&gt;</td>
-      <td>no styling needed</td>
+      <td>AP </td>
+      <td>th</td>
+	  <td></td>
     </tr>
     <tr>
-      <td>&lt;th&gt;</td>
-      <td><code>font-weight: bold;</code></td>
+      <td>AP </td>
+      <td>th</td>
+	  <td></td>
     </tr>
     <tr>
-      <td>&lt;td&gt;</td>
-      <td><code>font-weight: normal;</code></td>
+      <td>AP </td>
+      <td>th</td>
+	  <td></td>
+    </tr>
+	<tr>
+      <td>AP </td>
+      <td>th</td>
+	  <td></td>
+    </tr>
+	<tr>
+      <td>AP </td>
+      <td>th</td>
+	  <td></td>
+    </tr>
+	<tr>
+      <td>AP </td>
+      <td>th</td>
+	  <td></td>
+    </tr>
+	<tr>
+      <td>AP </td>
+      <td>th</td>
+	  <td></td>
+    </tr>
+	<tr>
+      <td>AP </td>
+      <td>th</td>
+	  <td></td>
     </tr>
   </tbody>
 </table>
+Note: This only includes classes I've taken at SEM. In addition to these, I've taken two one-semester PE courses and one one-semester Speech course online over the summer to meet the state's graduation requirements without sacrificing STEM opportunities.
