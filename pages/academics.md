@@ -153,13 +153,15 @@ Note: a "TBD" in the score section means I've signed up to take that test this y
 
 <table>
   <colgroup>
-    <col span="1" style="width: 95%;">
+    <col span="1" style="width: 90%;">
     <col span="1" style="width: 5%;">
+	<col span="1" style="width: 5%;">
   </colgroup>
   <thead>
     <tr>
       <th>Class Name</th>
-      <th>Grsde</th>
+      <th>Year</th>
+	  <th>Grade</th>
     </tr>
   </thead>
   <tbody>
