@@ -203,44 +203,150 @@ permalink: "/academics/"
 	  <td>91</td>
     </tr>
     <tr>
-      <td>AP </td>
-      <td>th</td>
-	  <td></td>
+      <td>AP Human Geography</td>
+      <td>9th</td>
+	  <td>91</td>
     </tr>
     <tr>
-      <td>AP </td>
-      <td>th</td>
-	  <td></td>
+      <td>Pre-AP English 1</td>
+      <td>9th</td>
+	  <td>94</td>
     </tr>
     <tr>
-      <td>AP </td>
-      <td>th</td>
-	  <td></td>
+      <td>Latin 1</td>
+      <td>9th</td>
+	  <td>89</td>
     </tr>
 	<tr>
-      <td>AP </td>
-      <td>th</td>
-	  <td></td>
+      <td>Pre-AP Chemistry</td>
+      <td>10th</td>
+	  <td>94</td>
     </tr>
 	<tr>
-      <td>AP </td>
-      <td>th</td>
-	  <td></td>
+      <td>AP Physics 1</td>
+      <td>10th</td>
+	  <td>91</td>
     </tr>
 	<tr>
-      <td>AP </td>
-      <td>th</td>
-	  <td></td>
+      <td>AP Calculus BC</td>
+      <td>10th</td>
+	  <td>88</td>
     </tr>
 	<tr>
-      <td>AP </td>
-      <td>th</td>
-	  <td></td>
+      <td>AP World History</td>
+      <td>10th</td>
+	  <td>92</td>
     </tr>
 	<tr>
-      <td>AP </td>
-      <td>th</td>
-	  <td></td>
+      <td>Pre-AP English 2</td>
+      <td>10th</td>
+	  <td>96</td>
+    </tr>
+	<tr>
+      <td>Computer Programming</td>
+      <td>10th</td>
+	  <td>90</td>
+    </tr>
+	<tr>
+      <td>Robotics (Arduino)</td>
+      <td>10th</td>
+	  <td>94</td>
+    </tr>
+	<tr>
+      <td>Latin 2</td>
+      <td>10th</td>
+	  <td>94</td>
+    </tr>
+	<tr>
+      <td>AP Statistics</td>
+      <td>11th</td>
+	  <td>93</td>
+    </tr>
+	<tr>
+      <td>Intro to (Electrical) Engineering</td>
+      <td>11th</td>
+	  <td>100</td>
+    </tr>
+	<tr>
+      <td>AP Chemistry</td>
+      <td>11th</td>
+	  <td>90</td>
+    </tr>
+	<tr>
+      <td>AP Physics C - Mechanics</td>
+      <td>11th</td>
+	  <td>95</td>
+    </tr>
+	<tr>
+      <td>Superlab (consists entirely of labs based on Physics C Mechanics and Chemistry)</td>
+      <td>11th</td>
+	  <td>93</td>
+    </tr>
+	<tr>
+      <td>AP English Language and Composition</td>
+      <td>11th</td>
+	  <td>95</td>
+    </tr>
+	<tr>
+      <td>AP American History</td>
+      <td>11th</td>
+	  <td>92</td>
+    </tr>
+	<tr>
+      <td>Pre-AP Latin 3</td>
+      <td>11th</td>
+	  <td>95</td>
+    </tr>
+	<tr>
+      <td>AP Environmental Science</td>
+      <td>12th</td>
+	  <td>94</td>
+    </tr>
+	<tr>
+      <td>AP Psychology</td>
+      <td>12th</td>
+	  <td>97</td>
+    </tr>
+	<tr>
+      <td>ATTAM</td>
+      <td>12th</td>
+	  <td>95</td>
+    </tr>
+	<tr>
+      <td>AP Physics C - Electricity and Magnetism</td>
+      <td>12th</td>
+	  <td>90</td>
+    </tr>
+	<tr>
+      <td>AP English Literature</td>
+      <td>12th</td>
+	  <td>98</td>
+    </tr>
+	<tr>
+      <td>AP American Government</td>
+      <td>12th</td>
+	  <td>93</td>
+    </tr>
+	<tr>
+      <td>AP Macroeconomics</td>
+      <td>12th</td>
+	  <td>96</td>
+    </tr>
+	<tr>
+      <td>AP Latin 4</td>
+      <td>12th</td>
+	  <td>98</td>
+    </tr>
+	<tr>
+      <td>Pre-AP Studio Art 1</td>
+      <td>12th</td>
+	  <td>99</td>
+    </tr>
+	<tr>
+      <td>Teacher Assistant (Joshua Newton)</td>
+      <td>12th</td>
+	  <td>100</td>
     </tr>
   </tbody>
 </table>
+Note: As school year is not over yet, not all grades listed for Senior year classes are final. Current senior year grades are based on first-semester averages as they appear on most recently received report card. All other grades are based on a copy of the official high school transcript.
