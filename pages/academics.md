@@ -11,13 +11,22 @@ permalink: "/academics/"
 
 <h3>Noteworthy Updates:</h3>
 
-<p>
-	
-</p>
+<ul>
+  <li>
+	Just as I'd hoped, I've progressed from Semi-Finalist to Finalist status and been deemed eligible to recieve a National Merit Scholarship.
+  </li>
+  <li>
+	At the beginning of the second semester, I found out something new: I'm fresh out of AP courses! AP Psychology only lasted for the first semester, and when I looked over the list of available courses with school counsellors, we found out that there were simply no more APs left which I could take. Furthermore, all the available pre-AP courses were for subjects in which I'd skipped straight to the AP version. I worked it out with Mr. Newton (the main math teacher who wrote one of my letters of recommendation), who agreed to take me on as a teacher's aide. This should be a great opportunity to reinforce the college-level mathematics I'm currently learning from him in ATTAM.
+  </li>
+  <li>
+	The AP exams for this year are just around the corner, and I'm feeling pretty confident this year; my main concern was the English Literature AP due to my dysgraphia (which tends to lower my essay grades simply because I don't have time to finish), but I've managed to speed up with practice. With any luck, World History should remain as the only AP which I've scored any less than a 4 on.
+  </li>
+</ul>
 
 <h3>Testing Results</h3>
 
 <table>
+  <caption>Note: a "TBD" in the score section means I've signed up to take that test this year, but the test has not been graded yet. SAT scores reported are for the "new" SAT (March 2016 or after).</caption>
   <colgroup>
     <col span="1" style="width: 95%;">
     <col span="1" style="width: 5%;">
@@ -147,11 +156,11 @@ permalink: "/academics/"
     </tr>
   </tbody>
 </table>
-Note: a "TBD" in the score section means I've signed up to take that test this year, but the test has not been graded yet. SAT scores reported are for the "new" SAT (March 2016 or after).
 
 <h3>Classes Taken</h3>
 
 <table>
+  <caption>Note: This only includes classes I've taken at SEM. In addition to these, I've taken two one-semester PE courses and one one-semester Speech course online over the summer to meet the state's graduation requirements without sacrificing STEM opportunities.</caption>
   <colgroup>
     <col span="1" style="width: 90%;">
     <col span="1" style="width: 5%;">
@@ -232,4 +241,3 @@ Note: a "TBD" in the score section means I've signed up to take that test this y
     </tr>
   </tbody>
 </table>
-Note: This only includes classes I've taken at SEM. In addition to these, I've taken two one-semester PE courses and one one-semester Speech course online over the summer to meet the state's graduation requirements without sacrificing STEM opportunities.
