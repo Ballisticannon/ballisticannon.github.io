@@ -13,6 +13,9 @@ permalink: "/academics/"
 
 <ul>
   <li>
+	This may not be new info to me, but I think my math course this year, ATTAM (short for Application and Theory in Various Topics of Advanced Math), is worth explaining. Most high school seniors would likely be expected to be taking some AP math course while they apply for college, but at SEM, we tend to run into a problem with that notion: we're too good at math. Or at least, we do math too quickly. In SEM, we have three different "tracks" which students get sorted into ("Normal", "Fast", and "Super Fast"), according to their math capabilities. Members of the "Super Fast Track" (myself included) move through math courses at a blistering pace: we went through the entirety of Algebra 2, Geometry, and AP Calculus AB in freshman year alone. As we gain more influence over our schedules in the following years, some students choose to take a bit more leisurely of an approach to math, but those of us who continue to keep up the pace go on to finish AP Calculus BC and AP Statistics by the end of junior year. As a result, each senior class ends up with a handful of students who have a great affinity for math, but no more math classes that provide a challenge (or AP credit, for that matter). So, the ATTAM class was created by, and is practically exclusive to, those students who crave more advanced math knowledge. Students like myself who get this far are able to get a head start on topics usually only available at universities, such as linear algebra, advanced logic and proofs, and vector and matrix applications. It may not have an AP credit to back it up, but those of us in the class know it doesn't need one to be valuable.
+  </li>
+  <li>
 	Just as I'd hoped, I've progressed from Semi-Finalist to Finalist status and been deemed eligible to recieve a National Merit Scholarship.
   </li>
   <li>
