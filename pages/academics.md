@@ -349,4 +349,4 @@ permalink: "/academics/"
     </tr>
   </tbody>
 </table>
-Note: As school year is not over yet, not all grades listed for Senior year classes are final. Current senior year grades are based on first-semester averages as they appear on most recently received report card. All other grades are based on a copy of the official high school transcript.
+As school year is not over yet, not all grades listed for Senior year classes are final. Current senior year grades are based on first-semester averages as they appear on most recently received report card. All other grades are based on a copy of the official high school transcript.
