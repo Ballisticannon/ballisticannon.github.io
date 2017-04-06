@@ -1,10 +1,24 @@
 ---
-layout: post
+layout: page-fullwidth
+meta_teaser: 
+teaser: ""
+header:
+    image: dblwide.jpg
+    background-color: "#262930"
+    caption: Double-wide tape-based climber
+    caption_url: 
+image:
+    thumb: dblwide.jpg
+    homepage: 
+    caption: 
+    caption_url: ""
+categories:
+    - robotics
 title: The Double-Wide Experiment 
 tags: [mechanical, Design, Control]  
 section: engineering
 personhours: 12
-rollcall: [Jayesh, Max, Dylan, Evan] 
+rollcall: [Max, Dylan, Evan, Jayesh] 
 ---
 
 
@@ -20,22 +34,22 @@ By {{ page.rollcall | array_to_sentence_string }} <br />
 <p>
 Our tape measure is constantly under stress, which usually isn't a big problem if the driver is positioned with a straight 90 degree angle, but when twisted can result in cracks. 
 </p>
-<img src="../images/crackedTapeMeasure.jpg">
+<img src="/images/crackedTapeMeasure.jpg">
 
 <p>
 While our tape-measure design worked decently at our competition last week, with multiple mid zone scores and one high zone score, we are going to need more consistency to be a valuable ally in our matches. At competition we saw the tape fold multiple times, requiring a new retract/extend cycle that wasted time and often required reposositioning heroics from our driver. Mostly this was due to the hasty replacement of the dead servo that controlled the tape's elevation. The replacement didn't line up with the previous one and might have had a different programmed response range.  As a result the preset angles were all wrong and it took us a few matches to reprogram usable elevation angles.  In the mean-time drivers had to jockey the robot into weird positions that challenged the stability of the tape. So we'll fix the problem with better servo maintenance, but in the mean-time we thought that maybe we could also stabilize the tape by adding a buddy.  Thus the double-wide (slit) experiment.</p>
-<img src="../images/dblwide.jpg">
+<img src="/images/dblwide.jpg">
 <p>
-Now we have two custom printed tape spools on a shared axis. Max designed a new 3-D printed case to hold both.  The case floats on the axis and rotating the case is what sets the elevation of the tapes. Since our design does not use the original spools of the tape measures with their counter-springs, our tapes naturally want to extend out of the case.  This simplifies our design so that we don't have to push the tape out with a drive wheel, but it also increases the power needed to retract the tapes.  Now with two tapes there is even more resistance to retracting the tape even when the robot is not lifting. So we switched from two regular Neverest motors to two 60:1 versions with increased torque.  With two tapes, there is also less strain on each. Ripping tape was another competition experience that we want to minimize.    
+Now we have two custom printed tape spools on a shared axis. I designed a new 3-D printed case to hold both.  The case floats on the axis and rotating the case is what sets the elevation of the tapes. Since our design does not use the original spools of the tape measures with their counter-springs, our tapes naturally want to extend out of the case.  This simplifies our design so that we don't have to push the tape out with a drive wheel, but it also increases the power needed to retract the tapes.  Now with two tapes there is even more resistance to retracting the tape even when the robot is not lifting. So we switched from two regular Neverest motors to two 60:1 versions with increased torque.  With two tapes, there is also less strain on each. Ripping tape was another competition experience that we want to minimize.    
 </p>
-<img src="../images/dblwideinside.jpg">
+<img src="/images/dblwideinside.jpg">
 
 <h3>Reflections</h3>
-<img src="../images/dblwideinstall.jpg">
+<img src="/images/dblwideinstall.jpg">
 <p>
 A consequence we didn't predict is how much weight the second tape adds.  When testing the new design we discovered that this extra weight adds considerable force against the servo that controls elevation - particularly when the tape is extended out to the 3 feet or so that we need to disengage from the last churro prior to coming back down the mountain. We need a way to counter this extra weight and relieve the servo of the burden.  Probably more elastic materials.
 </p><p>
-We also discovered that the servo linkage point on the custom case needs to be moved to give a better range of articulation based on where the servo is mounted.  Max has already made the design improvements and we are printing a new case overnight. It takes our printer 11 hours to print both halves of this case design.
+We also discovered that the servo linkage point on the custom case needs to be moved to give a better range of articulation based on where the servo is mounted.  I've has already made the design improvements and we are printing a new case overnight. It takes our printer 11 hours to print both halves of this case design.
 </p><p> 
 We are hoping that all this effort leads to a reliable 80-point hang for next week's competition. We are trying to make our control scheme as easy to interpret by our driver as possible, so we are implementing a mountain mode that should simplify things. Now, we need to focus on our conveyer belt system to score blocks as well as climb the ramp.
 </p>
