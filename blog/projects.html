@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Community"
-teaser: "Check out all blog posts related to my work in the community."
+title: "Projects"
+teaser: "Check out all blog posts related to my larger projects."
 breadcrumb: true
 header:
    image_fullwidth: maxteaching.jpg
-permalink: "blog/community/"
+permalink: "blog/projects/"
 ---
 <div id="blog-index" class="row">
 	<div class="small-12 columns t30">
@@ -14,7 +14,7 @@ permalink: "blog/community/"
 
 		<dl class="accordion" data-accordion>
 			{% assign counter = 1 %}
-			{% for post in site.categories.community limit:1000 %}
+			{% for post in site.categories.projects limit:1000 %}
 			<dd class="accordion-navigation">
 			<a href="#panel{{ counter }}"><span class="iconfont"></span> {% if post.subheadline %}{{ post.subheadline }} › {% endif %}<strong>{{ post.title }}</strong></a>
 				<div id="panel{{ counter }}" class="content">
