@@ -70,6 +70,14 @@
   url: "/academics/"
   side: left
 
+- title: Robotics
+  url: "/blog/robotics/"
+  side: left
+  
+- title: Community
+  url: "/blog/community/"
+  side: left
+  
 - title: "Search"
   url: "/search/"
   side: right
