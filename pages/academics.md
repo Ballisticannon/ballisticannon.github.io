@@ -162,6 +162,7 @@ permalink: "/academics/"
     </tr>
   </tbody>
 </table>
+As an aside to the test scores, it's worth mentioning that I've progressed from Semi-Finalist to Finalist status and been deemed eligible to receive a National Merit Scholarship.
 
 <h3>Classes Taken</h3>
 
