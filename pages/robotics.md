@@ -10,3 +10,9 @@ permalink: "/robotics/"
 ---
 
 
+<ul>
+    {% for post in site.categories.robotics %}
+    <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+
